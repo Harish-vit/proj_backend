@@ -1,4 +1,3 @@
-// index.js
 const express = require("express");
 const cors = require("cors");
 const mongoose = require("mongoose");
@@ -11,7 +10,7 @@ app.use(cors());
 
 mongoose.set("strictQuery", true);
 
-mongoose.connect("mongodb+srv://test:Ikjfk4yIJGiUuC2S@cluster0.7fkzvdk.mongodb.net/", {
+mongoose.connect("mongodb+srv://harish:1234@cluster0.hgmpvm6.mongodb.net/User", {
   useNewUrlParser: true,
   useUnifiedTopology: true
 }).then(() => {
